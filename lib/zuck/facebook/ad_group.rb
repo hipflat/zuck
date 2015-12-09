@@ -21,7 +21,7 @@ module Zuck
                :updated_time
 
     parent_object :ad_campaign
-    list_path     :adgroups
+    list_path     :ads
     connections   :ad_creatives
 
     def self.create(graph, data, ad_set)

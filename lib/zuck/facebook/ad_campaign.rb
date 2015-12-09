@@ -9,11 +9,11 @@ module Zuck
                :objective,
                :name,
                :adgroups,
-               :campaign_group_status,
+               :status,
                :buying_type
 
     parent_object :ad_account, as: :account_id
-    list_path     :adcampaign_groups
+    list_path     :campaigns
     connections   :ad_groups, :ad_campaigns
 
   end

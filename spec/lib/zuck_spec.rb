@@ -89,7 +89,7 @@ describe Zuck::FbObject do
           o = {
               name: "Rap like me",
               # targeting: '{"geo_locations": {"countries":["US"]}}',
-              # objective: 'WEBSITE_CLICKS',
+              # objective: 'LINK_CLICKS',
               bid_amount: 5,
               creative: '{"creative_id": '+creative.id+'}'
           }
